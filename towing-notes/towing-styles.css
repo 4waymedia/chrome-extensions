@@ -1,0 +1,48 @@
+.rts-images {
+	width: 250px;
+	height: 200px;
+	overflow: scroll;
+}
+
+.rts-note {
+	
+}
+
+.rts-aside{
+	
+}
+.rts-aside table {
+	
+}
+td.rts-field-violation{
+	
+}
+td.rts-field-violation.fire{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: red;
+	text-align: center;
+	padding: 18px;
+}
+td.rts-field-violation.handicap {
+	padding: 18px;
+	color: white;
+	background-color: #0066cc;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.rts-aside tr td{
+	font-size: 15px;
+	padding:5px;
+}
+.rts-aside tr td:nth-child(1){
+	text-transform: capitalize;
+	font-weight: 800;
+	font-size: 16px;
+}
+.rts-aside tr td:nth-child(2){
+	padding-left: 1px solid #ccc;
+	
+}

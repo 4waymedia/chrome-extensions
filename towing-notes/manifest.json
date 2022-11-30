@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Towing Notes",
+  "version": "1.0",
+  "description": "Create a popup info widget for Odami",
+  "permissions": [
+      "storage"
+    ],
+  "icons": {
+    "16": "images/rts-16.jpg",
+    "32": "images/rts-32.jpg",
+    "48": "images/rts-48.jpg",
+    "128": "images/rts-128.jpg"
+  },
+  "content_scripts": [
+    {
+      "css": [ "towing-styles.css" ],
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://rebellos.omadi.com/*"
+      ]
+    }
+  ]
+}
